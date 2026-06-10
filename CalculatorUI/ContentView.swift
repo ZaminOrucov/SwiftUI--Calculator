@@ -30,8 +30,7 @@ struct ContentView: View {
             
             VStack(spacing: 12) {
                 Spacer()
-                
-                // Display
+            
                 HStack {
                     Spacer()
                     Text(display)
@@ -120,8 +119,7 @@ struct ContentView: View {
             break
         }
     }
-    
-    // Əlavə köməkçi funksiyalar
+
     func formatNumber(_ num: Double) -> String {
         if num.truncatingRemainder(dividingBy: 1) == 0 {
             return String(Int(num))
