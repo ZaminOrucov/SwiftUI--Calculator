@@ -1,10 +1,3 @@
-//
-//  CalculatorUIApp.swift
-//  CalculatorUI
-//
-//  Created by Zamin Orucov on 8/19/25.
-//
-
 import SwiftUI
 import SwiftData
 
