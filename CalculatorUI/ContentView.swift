@@ -34,8 +34,6 @@ struct ContentView: View {
                         .lineLimit(1)
                         .padding()
                 }
-                
-                // Buttons
                 ForEach(buttons, id: \.self) { row in
                     HStack(spacing: 12) {
                         ForEach(row, id: \.self) { button in
