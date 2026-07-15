@@ -1,9 +1,5 @@
-
-
 import SwiftUI
 import SwiftData
-
-
 struct ContentView: View {
     @State private var display: String = "0"
     @State private var currentNumber: Double = 0
