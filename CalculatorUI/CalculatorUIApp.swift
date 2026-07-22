@@ -15,7 +15,7 @@ struct CalculatorUIApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
-
+// Model əlavə et
     var body: some Scene {
         WindowGroup {
             ContentView()
